@@ -1,0 +1,6 @@
+{
+  "name": "RTL Auto-Aligner",
+  "description": "Smart browser-compatible tool to detect Arabic text and auto-align elements for proper right-to-left display.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

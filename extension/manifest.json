@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "RTLize Pro",
+  "version": "1.0",
+  "description": "Smartly aligns Arabic text to RTL by finding the common parent container.",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "RTLize Pro"
+  }
+}
